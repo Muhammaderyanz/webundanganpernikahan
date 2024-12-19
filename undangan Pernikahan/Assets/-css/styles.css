@@ -1,0 +1,452 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#section-1{
+    background-image: url("../-img/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#section-2 {
+    background-image: url("../-img/bg2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-3{
+    background-image: url('../-img/bg5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-4{
+    background-image: url(../-img/bg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    font-size: 30px;
+    color: green;
+    
+    
+}
+
+
+#section-5{
+    background-image: url(../-img/bg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#section-6 {
+    background-image: url(../-img/bg6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    padding: 10px;
+    color: greenyellow;
+}
+
+#section-7 {
+    background-image: url(../-img/bg8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #007A33;
+    font-size: 25px;
+}
+
+#section-8 {
+    background-image: url(../-img/bg7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+#pos-tl {
+    position: absolute;
+    bottom: 70vh;
+    left: -180px;
+    
+}
+
+.pos-tr {
+    position: absolute;
+    right: -180px;
+    bottom: 70VH;
+}
+
+
+#kotak-musik{
+    display: none;
+}
+
+
+
+
+
+#tombol-musik{
+    
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: forestgreen;
+    border-radius: 100%;
+    padding:50px;
+}
+
+#tombol-musik img{
+
+    width:18vh;
+
+}
+
+
+.story {
+    padding: 50px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../-img/tumbuhan.jpeg);
+    
+}
+
+.story h2 {
+    font-size: 46px;
+    color: green;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.story-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.story-text {
+    flex: 1;
+    font-size: 18px;
+    color: greenyellow;
+    line-height: 1.8;
+}
+
+.story-image {
+    flex: 1;
+}
+
+.story-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .story-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .story-image, .story-text {
+        flex: none;
+    }
+
+    .story h2 {
+        font-size: 28px;
+    }
+
+    .story-text {
+        font-size: 16px;
+    }
+}
+
+
+
+.pesan-pengantin {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-image: url(../-img/bg9.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pesan-pengantin h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.pesan-pengantin label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.pesan-pengantin textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+}
+
+.pesan-pengantin input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.pesan-pengantin button {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pesan-pengantin button:hover {
+    background-color: #34495e;
+}
+
+
+.tulisan{
+
+color: green;
+}
+
+header {
+    background-color: #007A33; /* Warna hijau botanical */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Cover Section */
+.cover {
+    background-image: url('images/botanical-background.jpg'); /* Ganti dengan gambar latar belakang yang sesuai */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cover-content {
+    color: white;
+}
+
+.cover h1 {
+    font-size: 68px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    background-color:green
+}
+
+.cover h2 {
+    font-size: 46px;
+   
+   color: white;
+}
+
+.cover h3 {
+    font-size: 24px;
+}
+
+.cover-button {
+    padding: 10px 20px;
+    background-color: #FFD700; /* Warna tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #007A33; /* Warna hijau untuk judul */
+    margin-bottom: 20px;
+}
+
+/* Quotes Section */
+blockquote {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arabic-quote {
+    font-family: 'Arabic', sans-serif; /* Ganti dengan font Arabic jika ada */
+    font-size: 20px;
+}
+
+/* Profil Pengantin Section */
+.profil-pengantin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.pengantin-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Gallery Section */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.gallery-container img,
+.gallery-container video {
+    margin: 10px;
+    width: 300px; 
+    height: auto;
+}
+
+/* Tamu Khusus Table */
+.guest-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.guest-table th,
+.guest-table td {
+    border: 1px solid #007A33;
+    padding: 10px;
+    text-align: left;
+}
+
+/* RSVP Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007A33; /* Warna hijau untuk tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Kirim Hadiah Section */
+.gift-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .cover-content h1 {
+        font-size: 36px;
+    }
+
+    .cover-content h2 {
+        font-size: 24px;
+    }
+
+    .cover-content h3 {
+        font-size: 18px;
+    }
+
+    .pengantin-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .gallery-container img,
+    .gallery-container video {
+        width: 100%;
+        max-width: 300px; 
+    }
+
+    form input,
+    form textarea {
+        width: 95%;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007A33; /* Warna hijau footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
